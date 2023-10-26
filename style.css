@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@100;300;400&family=Roboto+Condensed&family=Roboto:wght@300&family=Signika:wght@400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&family=Poppins:wght@100;300;400&family=Roboto+Condensed&family=Roboto:wght@300&family=Signika:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 4px;
+
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    color: #e3e3e3;
+    margin-left: 1vw;
+    font-size: 2rem ;
+}
+
+body{
+    background-color: #3a2e4c;
+}
+
+.logo{
+    width: 7vw;
+}
+
+.heading{
+    color: white;
+    font-size: 7rem;
+    color: #a990cc;
+    color: #ad8cdf;
+
+}
+
+p{
+    color: white;
+}
+
+navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    color: white;
+    margin-right: 3vw;
+    font-size: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.text{
+    margin-left: 13vw;
+}
+
+p{
+    margin-top: 2vw;
+    font-size: 1.7rem;
+    color: #fefeff;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.button{
+    width: 170px;
+    background-color: #a990cc;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 15px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    position: absolute;
+    right: 5vw;
+    bottom: 3vw;
+    color: #000;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: #000;
+}
+/* 
+navbar{
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.next1{
+    color: #000;
+}

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@100;300;400&family=Roboto+Condensed&family=Roboto:wght@300&family=Signika:wght@400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&family=Poppins:wght@100;300;400&family=Roboto+Condensed&family=Roboto:wght@300&family=Signika:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 4px;
+
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    color: #e3e3e3;
+    margin-left: 1vw;
+    font-size: 2rem ;
+}
+
+body{
+    background-color: #3a2e4c;
+}
+
+.logo{
+    width: 7vw;
+}
+
+.heading{
+    color: white;
+    font-size: 7rem;
+    color: #a990cc;
+    color: #ad8cdf;
+
+}
+
+p{
+    color: white;
+}
+
+navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    color: white;
+    margin-right: 3vw;
+    font-size: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.text{
+    margin-left: 13vw;
+}
+
+p{
+    margin-top: 2vw;
+    font-size: 1.7rem;
+    color: #fefeff;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.button{
+    width: 150px;
+    background-color: #a990cc;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 15px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    position: absolute;
+    right: 5vw;
+    bottom: 3vw;
+}
+
+.next{
+    width: 170px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.back{
+    right: 16.5vw;
+}
+
+.form{
+    width: 70vw;
+    height: 37vh;
+    background-color: #ad8cdf;
+    border-radius: 15px;
+    position: absolute;
+    left: 15vw;
+    padding: 1.5vw;
+    padding-left: 3vw;
+    top: 17vh;
+}
+
+.title{
+    color: #3a2e4c;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    /* justify-items: center; */
+    grid-template-columns: 50% 50%;
+}
+
+label{
+    font-size: 2rem;
+}
+
+.p1,.p2,.p3,.p4{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-sym{
+    height: 40px;
+    width: 17vw;
+    margin-left: 10px;
+}
+
+.sick{
+    width: 70vw;
+    height: 15vh;
+    background-color: #ad8cdf;
+    left: 15vw;
+    position: absolute;
+    border-radius: 15px;
+    top: 60vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.sick-text{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #3a2e4c;
+    padding-left: 3vw;
+}
+
+.num-sick{
+    height: 8vh;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 10vw;
+    margin-left: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+.page2-p1{
+    width: 96vw;
+    height: 90vh;
+    position: absolute;
+    left:2vw;
+    top: 5vh;
+    background-color: #ad8cdf;
+}
+
+.close{
+    width: 3vw;
+    right: 1vw;
+    top: 1vw;
+    position: absolute;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.backa{
+    color: #000;
+}
+
+.p2title{
+    color: #3a2e4c;
+    font-size: 2.5rem;
+
+}
+
+.p2title2{
+    color: #3a2e4c;
+    font-size: 3.5rem;
+    margin-left: -4vw;
+}
+
+.inputprev{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.previous{
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.okay{
+    margin-left: 10vw;
+}
+
+.display{
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.p2title3{
+    margin-top: 2vh;
+    color: #3a2e4c;
+    font-size: 2.5rem;
+}
+
+.dis-name{
+    margin-left: 10vw;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.dis-name{
+    color: #000;
+    font-size: 1.9rem;
+    margin-top: 1vh;
+}
