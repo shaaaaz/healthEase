@@ -112,7 +112,7 @@ a:hover{
 
 .form{
     width: 70vw;
-    height: 37vh;
+    height: 30vh;
     background-color: #ad8cdf;
     border-radius: 15px;
     position: absolute;
@@ -126,6 +126,7 @@ a:hover{
     color: #3a2e4c;
     font-weight: bolder;
     font-size: 2.5rem;
+    margin-bottom: 50px;
 }
 
 .grid{
@@ -160,7 +161,7 @@ label{
     left: 15vw;
     position: absolute;
     border-radius: 15px;
-    top: 60vh;
+    top: 55vh;
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -267,3 +268,30 @@ ol{
     font-size: 1.9rem;
     margin-top: 1vh;
 }
+
+
+
+
+.sel-var{
+    padding-top: 100px;
+}
+
+
+#dropdown{
+    width: 30vw;
+    height: 50px;
+    /* margin-left: 110px; */
+    align-self: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+
+

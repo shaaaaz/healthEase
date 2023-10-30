@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>healthEase - Symptoms</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="page1">
@@ -15,12 +17,12 @@
             <div class="nav-left">
                 <!-- <img src="./images/logo.png" alt="" class="logo"> -->
                 <img src="./images/logo-face.png" alt="logo-image" class="logo">
-    
+
                 <h2 class="line">We Care To Cure</h2>
             </div>
-    
-    
-            
+
+
+
             <div class="nav-right">
                 <ul>
                     <li class="links"><a href="../index.html">Home</a></li>
@@ -29,12 +31,12 @@
                 </ul>
             </div>
         </navbar>
-    
+
         <div class="form">
-    
-            <h1 class="title">Input your various Symptoms</h1>
-    
-            <div class="grid">
+
+            <h1 class="title">Select your symptoms</h1>
+
+            <!-- <div class="grid">
     
                 <div class="p1">
                     <label for="Name">Symptom 1</label>
@@ -58,35 +60,145 @@
     
                 
     
-            </div>
+            </div> -->
+
+            <!-- <label class="sel-var"></label> -->
+            <select id="dropdown">
+                <option value="1">Fever / Cough / Sore throat / Fatigue
+                </option>
+                <option value="2">Coughing up blood / Chest pain / Fatigue / Unintentional weight loss
+                </option>
+                <option value="3">Fever / Chills / Sweats / Fatigue
+                </option>
+                <option value="4">Rapid weight loss / Recurring fever / Extreme fatigue / Night sweats
+                </option>
+                <option value="5">Jaundice (yellowing of the skin and eyes) / Abdominal pain / Fatigue / Nausea and vomiting
+                </option>
+                <option value="6">Profuse watery diarrhea / Nausea and vomiting / Muscle cramps / Dehydration
+                </option>
+                <option value="7">High fever / Severe headache / Pain behind the eyes / Joint and muscle pain
+                </option>
+                <option value="8">Cough / Fever / Shortness of breath / Chest pain
+                </option>
+                <option value="9">Bull's-eye rash (Erythema migrans) / Flu-like symptoms / Joint pain and swelling / Fatigue
+                </option>
+                <option value="10">Fever or chills / Cough / Shortness of breath or difficulty breathing / Fatigue
+                </option>
+
+                <option value="11">Fatigue / Episodes of pain / Jaundice (yellowing of the skin and eyes) / Swelling of hands and feet
+                </option>
+                <option value="12">Persistent cough with phlegm / Wheezing / Shortness of breath / Poor growth or weight gain in spite of a good appetite
+                </option>
+                <option value="13">Involuntary movements (chorea) / Impaired coordination and balance / Cognitive decline / Mood swings and personality changes
+                </option>
+                <option value="14">Reduced muscle tone at birth / Upward slanting eyes / Small ears / Single deep crease across the center of the palm
+                </option>
+                <option value="15">Muscle weakness / Delayed motor skills / Difficulty in walking / Contractures (abnormal shortening of muscles or tendons)
+                </option>
+                <option value="16">Excessive bleeding from injuries / Easy bruising / Pain and swelling in joints / Blood in urine or stool
+                </option>
+                <option value="17">Loss of height over time / Back pain / Fractures with minimal trauma / Stooped posture
+                </option>
+                <option value="18">Memory loss / Disorientation / Difficulty in problem-solving / Changes in mood and behavior
+                </option>
+                <option value="19">Headaches / Shortness of breath / Vision problems / Chest pain
+                </option>
+
+                <option value="20">Increased thirst and hunger / Frequent urination / Fatigue / Blurred vision
+                </option>
+                <option value="21">Excessive weight gain / Difficulty in physical activity / Fatigue / Breathlessness
+                </option>
+                <option value="22">Poor muscle tone / Feeding difficulties in infancy / Excessive hunger and overeating / Mild to moderate intellectual disability
+                </option>
+                <option value="23">Short stature / Webbed neck / Non-functioning ovaries / Heart defects
+                </option>
+                <option value="24">Tall and slender body type / Long arms, legs, and fingers / Scoliosis / Heart problems, such as mitral valve prolapse or aortic aneurysm
+                </option>
+                <option value="25">Intellectual disability / Behavioral challenges, such as hyperactivity or social anxiety / Speech and language delays / Large ears, long face, and prominent jaw and forehead
+                </option>
+                <option value="26">Abdominal pain and bloating / Diarrhea / Fatigue / Skin rash
+                </option>
+                <option value="27">Fatigue / Numbness or tingling in limbs / Muscle weakness / Problems with coordination and balance
+                </option>
+                <option value="28">Seizures / Loss of consciousness / Uncontrollable jerking movements / Confusion after a seizure
+                </option>
+                <option value="29">Tremors / Muscle rigidity / Bradykinesia (slowness of movement) / Postural instability
+                </option>
+                <option value="30">Joint pain and swelling / Morning stiffness / Fatigue / Loss of joint function
+                </option>
+
+                <option value="31">Joint pain / Skin rashes / Fatigue / Kidney problems
+                </option>
+                <option value="32">Abdominal pain / Diarrhea / Weight loss / Fatigue
+                </option>
+                <option value="33">Abdominal pain / Bloody diarrhea / Weight loss / Fatigue
+                </option>
+                <option value="34">Abdominal pain or bloating / Feeling full quickly after eating / Changes in bowel or urinary habits / Unexplained weight loss
+                </option>
+                <option value="35">Lump or thickening in the breast or underarm / Changes in breast size or shape / Nipple discharge or inversion / Skin changes on the breast
+                </option>
+                <option value="36">Difficulty urinating / Weak or interrupted urine flow / Blood in the urine or semen / Pain in the lower back, hips, or thighs
+                </option>
+                <option value="37">Abnormal vaginal bleeding / Pelvic pain / Pain during intercourse / Watery, bloody vaginal discharge
+                </option>
+                <option value="38">Joint pain / Stiffness / Reduced range of motion / Tenderness or swelling
+                </option>
+                <option value="39">Muscle weakness / Bone pain / Difficulty walking / Increased fractures
+                </option>
+
+                <option value="40">Sudden, severe joint pain / Swelling and redness in the affected joint / Limited range of motion / Tophi (lumps of uric acid crystals) under the skin
+                </option>
+                <option value="41">Difficulty with social interactions / Repetitive behaviors / Challenges with communication / Sensory sensitivities
+                </option>
+                <option value="42">Inattention / Impulsivity / Hyperactivity / Difficulty in organization and time management
+                </option>
+                <option value="43">Manic episodes (elevated mood, energy, and activity levels) / Depressive episodes (persistent sadness, hopelessness, and loss of interest) / Changes in sleep patterns / Impaired decision-making
+                </option>
+                <option value="44">Delusions / Hallucinations / Disorganized thinking and speech / Lack of motivation
+                </option>
+                <option value="45">Significant weight loss / Fear of gaining weight / Distorted body image / Preoccupation with food and dieting
+                </option>
+                <option value="46">Binge eating / Compensatory behaviors, such as purging or fasting / Feelings of lack of control over eating / Self-esteem overly influenced by body shape and weight
+                </option>
+                <option value="47">Excessive worrying / Restlessness / Fatigue / Difficulty concentrating
+                </option>
+                <option value="48">Flashbacks or nightmares related to a traumatic event / Avoidance of triggers associated with the trauma / Negative changes in mood and thought patterns / Hyperarousal, including irritability and difficulty sleeping
+                </option>
+                <option value="49">Obsessions (intrusive, unwanted thoughts or urges) / Compulsions (repetitive behaviors performed to alleviate anxiety) / Fear of contamination or harming oneself or others / Need for symmetry and order
+                </option>
+
+                <option value="50">Sudden and repeated attacks of intense fear / Physical symptoms during an attack, such as a pounding heart or sweating / Fear of losing control or dying during an attack / Persistent worry about having another panic attack
+                </option>
+
+            </select>
         </div>
-    
+
         <div class="sick">
             <h3 class="sick-text">From how many days have you been feeling sick?</h3>
             <input class="num-sick" type="number" id="sick-days" name="Name" placeholder="Days">
-    
-    
+
+
         </div>
-            
+
         <div class="back button">
-        <a class="backa" href="../index.html">
-            BACK 
-        </a>
+            <a class="backa" href="../index.html">
+                BACK
+            </a>
         </div>
-    
+
         <div class="next button">
-            SUBMIT 
+            SUBMIT
         </div>
 
     </div>
-    
+
     <div class="page2 hidden">
 
         <div class="page2-p1">
 
             <img src="../images/image.png" alt="close" class="close">
 
-            <div class="previous">
+            <!-- <div class="previous">
 
                 <h2 class="p2title">Your Symptoms-</h2>
 
@@ -95,8 +207,8 @@
                 <span class="name3 inputprev"></span>
                 <span class="name4 inputprev"></span>
 
-            </div>
-<!-- //done -->
+            </div> -->
+            <!-- //done -->
             <div class="display">
 
                 <h2 class="p2title2">Results</h2>
@@ -109,7 +221,7 @@
                     <li class="dis-name d3">3) d</li>
                 </ol>
 
-                <h2 class="p2title3">Recommended Tests-</h2>
+                <!-- <h2 class="p2title3">Recommended Tests-</h2> -->
 
                 <ol>
                     <li class="dis-name test1">1) a</li>
@@ -118,7 +230,7 @@
                 </ol>
 
             </div>
-            
+
 
 
 
@@ -126,9 +238,10 @@
 
     </div>
 
-    
 
-    
+
+
 </body>
 <script src="./app.js"></script>
+
 </html>

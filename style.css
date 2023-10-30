@@ -114,3 +114,8 @@ navbar{
 .next1{
     color: #000;
 }
+
+.paratext{
+    width: 1000px;
+    text-align: justify;
+}
